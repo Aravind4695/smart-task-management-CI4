@@ -65,6 +65,23 @@ It helps users manage tasks efficiently with features like task creation, updati
    ```
    http://localhost:8080
    ```
+
+##  Setup Instructions
+
+After cloning the project, run:
+
+```bash
+composer install
+```
+
+This will install the required dependencies including the system folder.
+
+Then configure `.env` file and run:
+
+```bash
+php spark serve
+```
+
 ---
 
 ## 👨‍💻 Author
